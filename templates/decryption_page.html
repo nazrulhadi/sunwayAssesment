@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        <p>
+            <label for="last">Decryption Key</label>
+            <input id="last" name="decrypt_key" type="text">
+        </p>
+        <input type="submit" value="Decrypt Me!">
+    </form>
+{% endblock %}

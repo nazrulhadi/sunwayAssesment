@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <form method="POST">
+        <p>
+            <label for="first">Enter the Path</label>
+            <input id="first" name="path" type="text">
+        </p><input type="submit" value="Process"> <br>
+    </form> 
+{% endblock %}
